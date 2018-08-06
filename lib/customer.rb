@@ -1,3 +1,6 @@
+require 'json_parser.rb'
+
 class Customer
-  attr_accesible :user_id, :name, :latitude, :longitude
+  include JsonParser
+  attr_accessor :user_id, :name, :latitude, :longitude
 end
