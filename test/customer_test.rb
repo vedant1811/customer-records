@@ -7,7 +7,7 @@ class CustomerTest < MiniTest::Test
     customer = Customer.new json
     assert_equal 25, customer.user_id
     assert_equal 52.833502, customer.latitude
-    assert_equal -8.522366, customer.longitude
+    assert_equal (-8.522366), customer.longitude
     refute_empty customer.name
   end
 end

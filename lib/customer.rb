@@ -1,4 +1,4 @@
-require 'json_parser.rb'
+require 'json_parser'
 
 class Customer
   include JsonParser
