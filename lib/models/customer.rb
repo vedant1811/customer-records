@@ -8,4 +8,8 @@ class Customer < Location
   def <=>(other)
     user_id <=> other.user_id
   end
+
+  def to_s
+    "%-30s #%02d" % [name, user_id]
+  end
 end

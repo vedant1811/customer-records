@@ -27,16 +27,11 @@ We have some customer records in a text file (customers.txt) -- one customer per
 - It’s an excellent answer if we've learned something from reading the code.
 
 
-
-We recommend you use whatever language you feel strongest in. It doesn't have to be one we use!
-
-
-
 **Please submit code as if you intended to ship it to production.** The details matter. Tests are expected, as is well written, simple idiomatic code.
 
 
 ### TODO
 
  - Take coordinates from the command line
- 
+
  - Make a 1-click install process
