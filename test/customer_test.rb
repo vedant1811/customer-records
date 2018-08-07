@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'customer'
+require 'models/customer'
 
 class CustomerTest < MiniTest::Test
   def test_should_parse_customer

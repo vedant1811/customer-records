@@ -1,4 +1,4 @@
-require 'customer'
+require 'models/customer'
 
 class FileInputParser
   def initialize(file)
