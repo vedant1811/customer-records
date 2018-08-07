@@ -5,6 +5,7 @@ class CustomersCalculator
   end
 
   def filter_and_sort(customers)
-    customers
+    customers.select { |c| c.distance_from(@origin) <= @max_dist }
+        .sort
   end
 end
