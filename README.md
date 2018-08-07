@@ -1,10 +1,21 @@
 ### Installation
 
-
+ - Install `ruby` and `bundler`
+ - Clone the repository
+ - `cd` into root of the cloned repository
+ - run `bundle install`
 
 ### Usage
 
+ - run `ruby main.rb` to run the entire app
+ - run `rake` (or `rake test`) to run all the tests
 
+
+ ### Notes
+
+ 1. the `JsonParser` uses some meta programming to get its work done
+
+ 1. All classes/modules have little to no dependencies (except the `Controller` class)
 
 
 ### Problem Statement
@@ -34,4 +45,6 @@ We have some customer records in a text file (customers.txt) -- one customer per
 
  - Take coordinates from the command line
 
- - Make a 1-click install process
+ - Take input from any file or STDIN
+
+ - Implement a ApiInputParser to fetch the input from a remote URL
